@@ -1,3 +1,7 @@
+import React from "react";
+import { Link, Route, useParams, useRouteMatch } from "react-router-dom";
+import Login from "./Login";
+
 function Dashboard()
 {
     return(
@@ -11,13 +15,17 @@ function Dashboard()
                     </div>
                     <div className="col-sm-6">
                         <ol className="breadcrumb float-sm-right">
-                        <li className="breadcrumb-item"><a href="#">Home</a></li>
+                        <li className="breadcrumb-item"></li>
                         <li className="breadcrumb-item active">Dashboard v1</li>
+                        
                         </ol>
                     </div>
+                    
                     </div>
                 </div>
             </div>
+
+            
 
 
             <section className="content">
@@ -96,6 +104,8 @@ function Dashboard()
                     </div>
                 </div>
             </section>
+
+            
 
         </div>
     );
